@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="nev.css">
+</head>
+<body>
+    <nav id="side-menu">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Blog</li>
+        </ul>
+        <button onclick="closeMenu()">Close</button>
+    </nav>
+    <header>
+        <nav id="primery-navbar">
+            <a href="">Home</a>
+            <a href="">Services</a>
+            <a href="">About</a>
+            <a href="">Contct</a>
+            <a href="">Blog</a>
+            <button onclick="openMenu()">Open</button>
+        </nav>
+    </header>
+    <main>
+        <section id="landing">
+            <h1>Landing</h1>
+        </section>
+        <section id="services">
+            <h1>Services</h1>
+        </section>
+        <section id="about">
+            <h1>About</h1>
+        </section>
+        <section id="contact">
+            <h1>Contct</h1>
+        </section>
+        <section id="blog">
+            <h1>Blog</h1>
+        </section>
+    </main>
+
+    <script>
+        function openMenu() {
+            document.getElementById("side-menu").style.display = "block";
+        }
+
+        function closeMenu() {
+            document.getElementById("side-menu").style.display = "none";
+        }
+    </script>
+</body>
+</html>

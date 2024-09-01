@@ -33,6 +33,19 @@ table{
     top: 0;
   }
 
+  a.nevbar {
+    text-decoration: none;
+    position: sticky;
+    top: 20px;
+    float: right;
+    text-transform: uppercase;
+    margin-right: 50px;
+    background-color: rgb(233, 206, 206);
+    border-radius: 10px;
+    color: black;
+    padding: 5px 5px;
+  }
+
   
   
   
